@@ -16,4 +16,4 @@ $`\sum d_{k,n}^2=O(n^{-1+\epsilon})`$
 
 The program generates the first sum above for $`1\le n\le5000`$ and plots it. The square root shape is apparent in the resulting plot:
 
-![plot](farey_diff.png)
+![plot](farey_diff.svg)
