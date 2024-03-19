@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from sympy.ntheory import totient
-from fractions import Fraction
 
 n = 100
 tot = np.cumsum(np.array([0] + [totient(k) for k in range(1, n+1)]))
