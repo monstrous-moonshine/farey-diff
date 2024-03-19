@@ -8,7 +8,11 @@ Now consider the sequence $U_n$ with the same number of terms as $F_n$, but spac
 
 $$U_n=\{\frac{k}{|F_n|}:0\le k\le|F_n|\}$$
 
-and let $b_{k,n}$ be the $k$-th term in $U_n$. In general, $a_{k,n}\ne b_{k,n}$, and let $d_{k,n}=a_{k,n}-b_{k,n}$. The following two statements have been shown to be equivalent to the Riemann hypothesis:
+and let $b_{k,n}$ be the $k$-th term in $U_n$. In general, $a_{k,n}\ne b_{k,n}$. For example, here's $F_7$ and $U_7$:
+
+![ticks](ticks.svg)
+
+Let $d_{k,n}=a_{k,n}-b_{k,n}$. The following two statements have been shown to be equivalent to the Riemann hypothesis:
 
 $$\sum_{k=1}^{|F_n|} |d_{k,n}|=O(n^{1/2+\epsilon})$$
 
