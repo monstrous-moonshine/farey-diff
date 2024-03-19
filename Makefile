@@ -7,3 +7,5 @@ farey_diff.txt: farey_diff
 	./farey_diff > $@
 
 farey_diff: farey_diff.cpp
+
+.PHONY: plot
